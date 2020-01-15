@@ -1,0 +1,1 @@
+ADD_TERMINAL_PLUGIN(defaultTerminalPlugin ${CMAKE_CURRENT_LIST_DIR}/DefaultTerminalPlugin.cpp)

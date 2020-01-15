@@ -1,0 +1,7 @@
+<map id="oppt::EnvironmentChange" name="oppt::EnvironmentChange">
+<area shape="rect" id="node2" href="$classoppt_1_1BodyAddedChange.html" title="oppt::BodyAddedChange" alt="" coords="239,5,405,32"/>
+<area shape="rect" id="node3" href="$classoppt_1_1BodyPoseChange.html" title="oppt::BodyPoseChange" alt="" coords="242,56,402,83"/>
+<area shape="rect" id="node4" href="$classoppt_1_1BodyRemovedChange.html" title="oppt::BodyRemovedChange" alt="" coords="229,107,415,133"/>
+<area shape="rect" id="node5" href="$classoppt_1_1ModelAddedChange.html" title="oppt::ModelAddedChange" alt="" coords="236,157,408,184"/>
+<area shape="rect" id="node6" href="$classoppt_1_1ModelRemovedChange.html" title="oppt::ModelRemovedChange" alt="" coords="227,208,417,235"/>
+</map>

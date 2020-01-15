@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classoppt_1_1OpptUserData.html" title="oppt::OpptUserData" alt="" coords="5,56,144,83"/>
+<area shape="rect" id="node2" href="$classoppt_1_1RobotState.html" title="oppt::RobotState" alt="" coords="220,5,341,32"/>
+<area shape="rect" id="node5" href="$classoppt_1_1RobotStateUserData.html" title="oppt::RobotStateUserData" alt="" coords="192,56,369,83"/>
+<area shape="rect" id="node6" href="$classoppt_1_1Trajectory.html" title="oppt::Trajectory" alt="" coords="224,107,337,133"/>
+<area shape="rect" id="node3" href="$classoppt_1_1WeightedRobotState.html" title="oppt::WeightedRobotState" alt="" coords="417,5,593,32"/>
+<area shape="rect" id="node4" href="$classoppt_1_1VectorState.html" title="oppt::VectorState" alt="" coords="641,5,765,32"/>
+</map>

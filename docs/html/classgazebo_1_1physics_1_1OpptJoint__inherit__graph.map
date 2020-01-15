@@ -1,0 +1,5 @@
+<map id="gazebo::physics::OpptJoint" name="gazebo::physics::OpptJoint">
+<area shape="rect" id="node2" href="$classgazebo_1_1physics_1_1OpptODEJoint.html" title="gazebo::physics::OpptODEJoint\l\&lt; JointType, ODEJointType \&gt;" alt="" coords="259,5,469,47"/>
+<area shape="rect" id="node3" href="$classgazebo_1_1physics_1_1OpptODEJointExtended.html" title="gazebo::physics::OpptODEJoint\lExtended\&lt; JointType, ODEJointType \&gt;" alt="" coords="238,71,490,112"/>
+<area shape="rect" id="node4" href="$classgazebo_1_1physics_1_1OpptODEJointExtended2.html" title="gazebo::physics::OpptODEJoint\lExtended2\&lt; JointType, ODEJointType \&gt;" alt="" coords="235,136,493,177"/>
+</map>

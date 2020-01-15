@@ -1,0 +1,5 @@
+<map id="oppt::CollisionReport" name="oppt::CollisionReport">
+<area shape="rect" id="node2" href="$classoppt_1_1ContinuousCollisionReport.html" title="oppt::ContinuousCollision\lReport" alt="" coords="211,5,382,47"/>
+<area shape="rect" id="node3" href="$classoppt_1_1DiscreteCollisionReport.html" title="oppt::DiscreteCollisionReport" alt="" coords="200,71,393,98"/>
+<area shape="rect" id="node4" href="$classoppt_1_1ExtendedCollisionReport.html" title="oppt::ExtendedCollisionReport" alt="" coords="197,122,396,149"/>
+</map>

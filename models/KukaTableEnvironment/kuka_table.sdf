@@ -1,0 +1,311 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+<world name='kuka_table'>
+    <physics type="ode">
+      <max_step_size>0.004</max_step_size>
+      <max_contacts>100</max_contacts>
+      <ode>
+        <solver>
+          <iters>25</iters>
+          <type>world</type>
+          <sor>1.3</sor>
+          <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>            
+        </solver>
+        <constraints>
+          <cfm>0</cfm>
+          <contact_surface_layer>0.0</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>    
+    <model name='GoalArea'>
+      <pose frame=''>-0.79 -0.30 0.3719 0 -0 0</pose>
+      <static>1</static>
+      <link name='chassis'>            
+        <visual name='GoalArea_visual'>
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.2</radius>
+            </sphere>
+          </geometry>          
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+            <ambient>0 1 0 0.5</ambient>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    
+    <model name='room'>	  
+	  <pose>-1 0.3 -0.6 0.0 0.0 0</pose>	  
+      <static>1</static>
+	  <link name="room_link">
+	    <visual name='visual'>
+      	  <geometry>
+        	<mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/doorScene.dae</uri>                  
+        	</mesh>
+      	  </geometry> 
+      	  <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+            <ambient>1.5 1.19411764705882352941 0.88823529411764705882 1</ambient>
+          </material>     	  
+    	</visual>
+        <collision name='collision'>
+      	  <geometry>
+            <mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/doorScene.dae</uri>          	      
+        	</mesh>
+      	  </geometry>      	      
+    	</collision>
+      </link>
+	</model>
+	
+	<model name='shelf'>	  
+	  <pose>0.325 0.275 -0.6 0.0 0.0 0</pose>	  
+      <static>1</static>
+	  <link name="shelf_link">
+	    <visual name='visual'>
+      	  <geometry>
+        	<mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/wall_shelf.dae</uri>                  
+        	</mesh>
+      	  </geometry> 
+      	  <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>     	  
+    	</visual>
+        <collision name='collision'>
+      	  <geometry>
+            <mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/wall_shelf.dae</uri>          	      
+        	</mesh>
+      	  </geometry>      	      
+    	</collision>
+      </link>
+	</model>
+	
+	<model name='wallShelf'>
+	  <pose>-0.5 -0.3 1.1 1.57079632679489661923 1.57079632679489661923 0</pose>	  
+      <static>1</static>
+	  <link name="wallShelf_link">
+	    <visual name='visual'>
+      	  <geometry>
+        	<mesh>
+          	  <scale>0.5 0.7 0.5</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/cabinet.dae</uri>                  
+        	</mesh>
+      	  </geometry> 
+      	  <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>            
+          </material>     	  
+    	</visual>
+        <collision name='collision'>
+      	  <geometry>
+            <mesh>
+          	  <scale>0.5 0.7 0.5</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/cabinet.dae</uri>          	      
+        	</mesh>
+      	  </geometry>      	      
+    	</collision>
+      </link>
+	</model>
+    
+    
+    <model name='tables1'>	  
+	  <pose>0.3 0.2 -0.69 0.0 0.0 0</pose>	  
+      <static>1</static>
+	  <link name="table1_link">
+	    <visual name='visual'>
+      	  <geometry>
+        	<mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/kuka_table2_tables.dae</uri>                  
+        	</mesh>
+      	  </geometry> 
+      	  <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+            <ambient>0.45882352941176470588 0.22941176470588235294 0 1</ambient>
+          </material>     	  
+    	</visual>
+        <collision name='collision'>
+      	  <geometry>
+            <mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/kuka_table2_tables.dae</uri>          	      
+        	</mesh>
+      	  </geometry>      	      
+    	</collision>
+      </link>
+	</model>
+	
+	<model name='monitor'>	  
+	  <pose>1.31 -0.5 0 0.0 0.0 2</pose>	  
+      <static>1</static>
+	  <link name="monitor_link">
+	    <visual name='visual'>
+      	  <geometry>
+        	<mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/monitor2.dae</uri>                  
+        	</mesh>
+      	  </geometry>      	  
+    	</visual>
+        <collision name='monitor_collision'>
+      	  <geometry>
+            <mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/monitor2.dae</uri>          	      
+        	</mesh>
+      	  </geometry>      	      
+    	</collision>
+      </link>
+	</model>
+	
+	<model name='books1'>	  
+	  <pose>0.4 0.33 -0.7 0.0 0.0 0</pose>	  
+      <static>1</static>
+	  <link name="books1_link">
+	    <visual name='visual'>
+      	  <geometry>
+        	<mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/kuka_table2_books1.dae</uri>                  
+        	</mesh>
+      	  </geometry> 
+      	  <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>              
+            </script>
+            <ambient>0.4 0.4 0.4 1</ambient>
+          </material>     	  
+    	</visual>
+        <collision name='collision'>
+      	  <geometry>
+            <mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/kuka_table2_books1.dae</uri>          	      
+        	</mesh>
+      	  </geometry>      	      
+    	</collision>
+      </link>
+	</model>
+	
+	<model name='books2'>	  
+	  <pose>0.35 0.4 -0.7 0.0 0.0 0</pose>	  
+      <static>1</static>
+	  <link name="books2_link">
+	    <visual name='visual'>
+      	  <geometry>
+        	<mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/kuka_table2_books2.dae</uri>                  
+        	</mesh>
+      	  </geometry> 
+      	  <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>              
+            </script>
+            <ambient>0.4 0.4 0.4 1</ambient>
+          </material>     	  
+    	</visual>
+        <collision name='collision'>
+      	  <geometry>
+            <mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/kuka_table2_books2.dae</uri>          	      
+        	</mesh>
+      	  </geometry>      	      
+    	</collision>
+      </link>
+	</model>
+	
+	<model name='bottle'>	  
+	  <pose>0.26 0.41 -0.7 0.0 0.0 0</pose>	  
+      <static>1</static>
+	  <link name="bottle_link">
+	    <visual name='visual'>
+      	  <geometry>
+        	<mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/bottle.dae</uri>                  
+        	</mesh>
+      	  </geometry> 
+      	  <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>              
+            </script>
+            <ambient>0.4 0.4 0.4 0.75</ambient>
+          </material>     	  
+    	</visual>
+        <collision name='collision'>
+      	  <geometry>
+            <mesh>
+          	  <scale>1 1 1</scale>
+          	  <uri>file://KukaTableEnvironment/meshes/bottle.dae</uri>          	      
+        	</mesh>
+      	  </geometry>      	      
+    	</collision>
+      </link>
+	</model>    
+    
+      <include>
+        <uri>model://KukaModel</uri>
+        <pose>0.0 0.0 0.0 0 0 0</pose>
+      </include>      
+        
+    <light name='user_spot_light_0' type='spot'>
+      <pose frame=''>-0.008974 0.005149 2 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>0 0 -1</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <spot>
+        <inner_angle>0.6</inner_angle>
+        <outer_angle>1</outer_angle>
+        <falloff>1</falloff>
+      </spot>
+    </light>
+    <light name='user_directional_light_0' type='directional'>
+      <pose frame=''>0.080405 1.64708 1 -0.7 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>0.1 0.1 -0.9</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+    </light>
+</world>
+</sdf>

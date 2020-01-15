@@ -1,0 +1,1 @@
+ADD_OBSERVATION_PLUGIN(defaultObservationPlugin ${CMAKE_CURRENT_LIST_DIR}/DefaultObservationPlugin.cpp)

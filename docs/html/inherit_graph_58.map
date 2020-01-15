@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classoppt_1_1Body.html" title="oppt::Body" alt="" coords="5,81,91,108"/>
+<area shape="rect" id="node2" href="$classoppt_1_1BodyImpl.html" title="oppt::BodyImpl" alt="" coords="139,81,249,108"/>
+<area shape="rect" id="node3" href="$classoppt_1_1BoxBody.html" title="oppt::BoxBody" alt="" coords="310,5,418,32"/>
+<area shape="rect" id="node4" href="$classoppt_1_1CylinderBody.html" title="oppt::CylinderBody" alt="" coords="297,56,431,83"/>
+<area shape="rect" id="node5" href="$classoppt_1_1MeshBody.html" title="oppt::MeshBody" alt="" coords="305,107,423,133"/>
+<area shape="rect" id="node6" href="$classoppt_1_1SphereBody.html" title="oppt::SphereBody" alt="" coords="301,157,427,184"/>
+</map>

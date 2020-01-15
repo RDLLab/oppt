@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classoppt_1_1OpptPlugin.html" title="oppt::OpptPlugin\&lt; Terminal\lPlugin \&gt;" alt="" coords="5,27,187,69"/>
+<area shape="rect" id="node2" href="$classoppt_1_1TerminalPlugin.html" title="oppt::TerminalPlugin" alt="" coords="235,35,376,61"/>
+<area shape="rect" id="node3" href="$classoppt_1_1DefaultTerminalPlugin.html" title="oppt::DefaultTerminalPlugin" alt="" coords="424,5,607,32"/>
+<area shape="rect" id="node4" href="$classoppt_1_1RocksampleTerminalPlugin.html" title="oppt::RocksampleTerminal\lPlugin" alt="" coords="426,57,605,98"/>
+</map>

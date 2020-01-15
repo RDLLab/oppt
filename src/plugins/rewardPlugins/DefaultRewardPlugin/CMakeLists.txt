@@ -1,0 +1,1 @@
+ADD_REWARD_PLUGIN(defaultRewardPlugin ${CMAKE_CURRENT_LIST_DIR}/DefaultRewardPlugin.cpp)

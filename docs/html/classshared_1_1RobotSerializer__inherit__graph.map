@@ -1,0 +1,7 @@
+<map id="shared::RobotSerializer" name="shared::RobotSerializer">
+<area shape="rect" id="node5" href="$classrobot_1_1RobotContinuousActionTextSerializer.html" title="robot::RobotContinuousAction\lTextSerializer" alt="" coords="601,5,799,47"/>
+<area shape="rect" id="node6" href="$classrobot_1_1RobotDiscreteActionTextSerializer.html" title="robot::RobotDiscreteAction\lTextSerializer" alt="" coords="610,71,790,112"/>
+<area shape="rect" id="node2" href="$classabt_1_1TextSerializer.html" title="abt::TextSerializer" alt="" coords="187,17,315,43"/>
+<area shape="rect" id="node3" href="$classabt_1_1Serializer.html" title="abt::Serializer" alt="" coords="5,46,108,73"/>
+<area shape="rect" id="node4" href="$classabt_1_1ApproximateObservationTextSerializer.html" title="abt::ApproximateObservation\lTextSerializer" alt="" coords="156,68,347,109"/>
+</map>

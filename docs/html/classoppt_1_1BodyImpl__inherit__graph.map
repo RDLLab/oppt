@@ -1,0 +1,7 @@
+<map id="oppt::BodyImpl" name="oppt::BodyImpl">
+<area shape="rect" id="node3" href="$classoppt_1_1BoxBody.html" title="oppt::BoxBody" alt="" coords="5,155,113,181"/>
+<area shape="rect" id="node4" href="$classoppt_1_1CylinderBody.html" title="oppt::CylinderBody" alt="" coords="138,155,271,181"/>
+<area shape="rect" id="node5" href="$classoppt_1_1MeshBody.html" title="oppt::MeshBody" alt="" coords="295,155,413,181"/>
+<area shape="rect" id="node6" href="$classoppt_1_1SphereBody.html" title="oppt::SphereBody" alt="" coords="437,155,564,181"/>
+<area shape="rect" id="node2" href="$classoppt_1_1Body.html" title="oppt::Body" alt="" coords="237,5,322,32"/>
+</map>

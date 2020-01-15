@@ -1,0 +1,5 @@
+<map id="oppt::GazeboSensor" name="oppt::GazeboSensor">
+<area shape="rect" id="node2" href="$classoppt_1_1DepthSensor.html" title="oppt::DepthSensor" alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node3" href="$classoppt_1_1GPSSensor.html" title="oppt::GPSSensor" alt="" coords="161,80,285,107"/>
+<area shape="rect" id="node4" href="$classoppt_1_1RaySensor.html" title="oppt::RaySensor" alt="" coords="309,80,429,107"/>
+</map>

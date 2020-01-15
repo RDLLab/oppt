@@ -1,0 +1,16 @@
+goalState: [0.85, 1.5, 1.5, -0.85, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+initialState: [0.0, 1.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+#initialState: [0.0, 0.0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+state:
+  jointPositions: [lwr_a1_joint, lwr_a2_joint, lwr_e1_joint, lwr_a3_joint, lwr_a4_joint, lwr_a5_joint, lwr_a6_joint]
+  jointVelocities: [lwr_a1_joint, lwr_a2_joint, lwr_e1_joint, lwr_a3_joint, lwr_a4_joint, lwr_a5_joint, lwr_a6_joint]
+
+action:
+  jointTorques: [lwr_a1_joint, lwr_a2_joint, lwr_e1_joint, lwr_a3_joint, lwr_a4_joint, lwr_a5_joint, lwr_a6_joint]
+  
+observation:
+  jointVelocities: [lwr_a1_joint, lwr_a2_joint, lwr_e1_joint, lwr_a3_joint, lwr_a4_joint, lwr_a5_joint, lwr_a6_joint]
+
+goalLink: lwr_7_link
+ignoreCollision: [lwr_base_link]

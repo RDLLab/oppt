@@ -1,0 +1,2 @@
+ADD_TRANSITION_PLUGIN(rocksampleTransitionPlugin ${CMAKE_CURRENT_LIST_DIR}/RocksampleTransitionPlugin.cpp)
+

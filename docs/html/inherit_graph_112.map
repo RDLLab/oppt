@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classoppt_1_1OpptPlugin.html" title="oppt::OpptPlugin\&lt; Observation\lPlugin \&gt;" alt="" coords="5,64,207,105"/>
+<area shape="rect" id="node2" href="$classoppt_1_1ObservationPlugin.html" title="oppt::ObservationPlugin" alt="" coords="255,71,416,98"/>
+<area shape="rect" id="node3" href="$classoppt_1_1DefaultObservationPlugin.html" title="oppt::DefaultObservation\lPlugin" alt="" coords="480,5,647,47"/>
+<area shape="rect" id="node4" href="$classoppt_1_1DubinObservationPlugin.html" title="oppt::DubinObservationPlugin" alt="" coords="466,71,661,98"/>
+<area shape="rect" id="node5" href="$classoppt_1_1RocksampleObservationPlugin.html" title="oppt::RocksampleObservation\lPlugin" alt="" coords="464,123,663,164"/>
+</map>

@@ -1,0 +1,1 @@
+ADD_INITIAL_BELIEF_PLUGIN(defaultInitialBeliefPlugin ${CMAKE_CURRENT_LIST_DIR}/DefaultInitialBeliefPlugin.cpp)
