@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.71.0 commit date:2014-06-12, commit time:18:39, hash:169c95b</authoring_tool>
+    </contributor>
+    <created>2016-11-18T20:47:21</created>
+    <modified>2016-11-18T20:47:21</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-camera" name="Camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <YF_dofdist>0</YF_dofdist>
+          <shiftx>0</shiftx>
+          <shifty>0</shifty>
+        </technique>
+      </extra>
+    </camera>
+    <camera id="Camera_001-camera" name="Camera.001">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <YF_dofdist>0</YF_dofdist>
+          <shiftx>0</shiftx>
+          <shifty>0</shifty>
+        </technique>
+      </extra>
+    </camera>
+  </library_cameras>
+  <library_lights>
+    <light id="Lamp-light" name="Lamp">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <adapt_thresh>0.000999987</adapt_thresh>
+          <area_shape>1</area_shape>
+          <area_size>0.1</area_size>
+          <area_sizey>0.1</area_sizey>
+          <area_sizez>1</area_sizez>
+          <atm_distance_factor>1</atm_distance_factor>
+          <atm_extinction_factor>1</atm_extinction_factor>
+          <atm_turbidity>2</atm_turbidity>
+          <att1>0</att1>
+          <att2>1</att2>
+          <backscattered_light>1</backscattered_light>
+          <bias>1</bias>
+          <blue>1</blue>
+          <buffers>1</buffers>
+          <bufflag>0</bufflag>
+          <bufsize>2880</bufsize>
+          <buftype>2</buftype>
+          <clipend>30.002</clipend>
+          <clipsta>1.000799</clipsta>
+          <compressthresh>0.04999995</compressthresh>
+          <dist sid="blender_dist">29.99998</dist>
+          <energy sid="blender_energy">1</energy>
+          <falloff_type>2</falloff_type>
+          <filtertype>0</filtertype>
+          <flag>0</flag>
+          <gamma sid="blender_gamma">1</gamma>
+          <green>1</green>
+          <halo_intensity sid="blnder_halo_intensity">1</halo_intensity>
+          <horizon_brightness>1</horizon_brightness>
+          <mode>8192</mode>
+          <ray_samp>1</ray_samp>
+          <ray_samp_method>1</ray_samp_method>
+          <ray_samp_type>0</ray_samp_type>
+          <ray_sampy>1</ray_sampy>
+          <ray_sampz>1</ray_sampz>
+          <red>1</red>
+          <samp>3</samp>
+          <shadhalostep>0</shadhalostep>
+          <shadow_b sid="blender_shadow_b">0</shadow_b>
+          <shadow_g sid="blender_shadow_g">0</shadow_g>
+          <shadow_r sid="blender_shadow_r">0</shadow_r>
+          <sky_colorspace>0</sky_colorspace>
+          <sky_exposure>1</sky_exposure>
+          <skyblendfac>1</skyblendfac>
+          <skyblendtype>1</skyblendtype>
+          <soft>3</soft>
+          <spotblend>0.15</spotblend>
+          <spotsize>75</spotsize>
+          <spread>1</spread>
+          <sun_brightness>1</sun_brightness>
+          <sun_effect_type>0</sun_effect_type>
+          <sun_intensity>1</sun_intensity>
+          <sun_size>1</sun_size>
+          <type>0</type>
+        </technique>
+      </extra>
+    </light>
+    <light id="Lamp_001-light" name="Lamp.001">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <adapt_thresh>9.99987e-4</adapt_thresh>
+          <area_shape>1</area_shape>
+          <area_size>0.1</area_size>
+          <area_sizey>0.1</area_sizey>
+          <area_sizez>1</area_sizez>
+          <atm_distance_factor>1</atm_distance_factor>
+          <atm_extinction_factor>1</atm_extinction_factor>
+          <atm_turbidity>2</atm_turbidity>
+          <att1>0</att1>
+          <att2>1</att2>
+          <backscattered_light>1</backscattered_light>
+          <bias>1</bias>
+          <blue>1</blue>
+          <buffers>1</buffers>
+          <bufflag>0</bufflag>
+          <bufsize>2880</bufsize>
+          <buftype>2</buftype>
+          <clipend>30.002</clipend>
+          <clipsta>1.000799</clipsta>
+          <compressthresh>0.04999995</compressthresh>
+          <dist sid="blender_dist">29.99998</dist>
+          <energy sid="blender_energy">1</energy>
+          <falloff_type>2</falloff_type>
+          <filtertype>0</filtertype>
+          <flag>0</flag>
+          <gamma sid="blender_gamma">1</gamma>
+          <green>1</green>
+          <halo_intensity sid="blnder_halo_intensity">1</halo_intensity>
+          <horizon_brightness>1</horizon_brightness>
+          <mode>8192</mode>
+          <ray_samp>1</ray_samp>
+          <ray_samp_method>1</ray_samp_method>
+          <ray_samp_type>0</ray_samp_type>
+          <ray_sampy>1</ray_sampy>
+          <ray_sampz>1</ray_sampz>
+          <red>1</red>
+          <samp>3</samp>
+          <shadhalostep>0</shadhalostep>
+          <shadow_b sid="blender_shadow_b">0</shadow_b>
+          <shadow_g sid="blender_shadow_g">0</shadow_g>
+          <shadow_r sid="blender_shadow_r">0</shadow_r>
+          <sky_colorspace>0</sky_colorspace>
+          <sky_exposure>1</sky_exposure>
+          <skyblendfac>1</skyblendfac>
+          <skyblendtype>1</skyblendtype>
+          <soft>3</soft>
+          <spotblend>0.15</spotblend>
+          <spotsize>75</spotsize>
+          <spread>1</spread>
+          <sun_brightness>1</sun_brightness>
+          <sun_effect_type>0</sun_effect_type>
+          <sun_intensity>1</sun_intensity>
+          <sun_size>1</sun_size>
+          <type>0</type>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images/>
+  <library_effects>
+    <effect id="g10_link0_geom7_mat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.256 0 0.06400001 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="g10_link0_geom6_mat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.256 0 0.06400001 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="g10_link0_geom5_mat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.256 0 0.06400001 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="g10_link0_geom4_mat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.256 0 0.06400001 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="g10_link0_geom3_mat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.256 0 0.06400001 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="g10_link0_geom2_mat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.256 0 0.06400001 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="g10_link0_geom1_mat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.256 0 0.06400001 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="g10_link0_geom0_mat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.256 0 0.06400001 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="g10_link0_geom7_mat-material" name="g10_link0_geom7_mat">
+      <instance_effect url="#g10_link0_geom7_mat-effect"/>
+    </material>
+    <material id="g10_link0_geom6_mat-material" name="g10_link0_geom6_mat">
+      <instance_effect url="#g10_link0_geom6_mat-effect"/>
+    </material>
+    <material id="g10_link0_geom5_mat-material" name="g10_link0_geom5_mat">
+      <instance_effect url="#g10_link0_geom5_mat-effect"/>
+    </material>
+    <material id="g10_link0_geom4_mat-material" name="g10_link0_geom4_mat">
+      <instance_effect url="#g10_link0_geom4_mat-effect"/>
+    </material>
+    <material id="g10_link0_geom3_mat-material" name="g10_link0_geom3_mat">
+      <instance_effect url="#g10_link0_geom3_mat-effect"/>
+    </material>
+    <material id="g10_link0_geom2_mat-material" name="g10_link0_geom2_mat">
+      <instance_effect url="#g10_link0_geom2_mat-effect"/>
+    </material>
+    <material id="g10_link0_geom1_mat-material" name="g10_link0_geom1_mat">
+      <instance_effect url="#g10_link0_geom1_mat-effect"/>
+    </material>
+    <material id="g10_link0_geom0_mat-material" name="g10_link0_geom0_mat">
+      <instance_effect url="#g10_link0_geom0_mat-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="g10_link0_geom7-mesh" name="g10_link0_geom7">
+      <mesh>
+        <source id="g10_link0_geom7-mesh-positions">
+          <float_array id="g10_link0_geom7-mesh-positions-array" count="192">0.11 0.4 0.08499997 0.11 0.4 0 0.11 -0.4 0.08499997 0.11 -0.4 0 0.08999997 0.4 0.08499997 0.08999997 0.4 0 0.08999997 -0.4 0.08499997 0.08999997 -0.4 0 -0.12 0.4 1.06 -0.12 0.4 0 -0.12 -0.4 1.06 -0.12 -0.4 0 -0.14 0.4 1.06 -0.14 0.4 0 -0.14 -0.4 1.06 -0.14 -0.4 0 0.14 -0.38 1.06 0.14 -0.38 0 0.14 -0.4 1.06 0.14 -0.4 0 -0.14 -0.38 1.06 -0.14 -0.38 0 -0.14 -0.4 1.06 -0.14 -0.4 0 0.14 0.4 1.06 0.14 0.4 0 0.14 0.38 1.06 0.14 0.38 0 -0.14 0.4 1.06 -0.14 0.4 0 -0.14 0.38 1.06 -0.14 0.38 0 0.14 0.4 0.105 0.14 0.4 0.08499997 0.14 -0.4 0.105 0.14 -0.4 0.08499997 -0.14 0.4 0.105 -0.14 0.4 0.08499997 -0.14 -0.4 0.105 -0.14 -0.4 0.08499997 0.14 0.4 0.477 0.14 0.4 0.457 0.14 -0.4 0.477 0.14 -0.4 0.457 -0.14 0.4 0.477 -0.14 0.4 0.457 -0.14 -0.4 0.477 -0.14 -0.4 0.457 0.14 0.4 0.774 0.14 0.4 0.754 0.14 -0.4 0.774 0.14 -0.4 0.754 -0.14 0.4 0.774 -0.14 0.4 0.754 -0.14 -0.4 0.774 -0.14 -0.4 0.754 0.14 0.4 1.06 0.14 0.4 1.04 0.14 -0.4 1.06 0.14 -0.4 1.04 -0.14 0.4 1.06 -0.14 0.4 1.04 -0.14 -0.4 1.06 -0.14 -0.4 1.04</float_array>
+          <technique_common>
+            <accessor source="#g10_link0_geom7-mesh-positions-array" count="64" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g10_link0_geom7-mesh-normals">
+          <float_array id="g10_link0_geom7-mesh-normals-array" count="288">1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#g10_link0_geom7-mesh-normals-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="g10_link0_geom7-mesh-vertices">
+          <input semantic="POSITION" source="#g10_link0_geom7-mesh-positions"/>
+        </vertices>
+        <polylist material="g10_link0_geom7_mat-material" count="12">
+          <input semantic="VERTEX" source="#g10_link0_geom7-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#g10_link0_geom7-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 2 0 1 0 1 1 2 1 3 1 4 2 5 2 6 2 5 3 7 3 6 3 0 4 1 4 4 4 1 5 5 5 4 5 2 6 6 6 3 6 3 7 6 7 7 7 0 8 4 8 2 8 2 9 4 9 6 9 1 10 3 10 5 10 3 11 7 11 5 11</p>
+        </polylist>
+        <polylist material="g10_link0_geom6_mat-material" count="12">
+          <input semantic="VERTEX" source="#g10_link0_geom7-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#g10_link0_geom7-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>8 12 10 12 9 12 9 13 10 13 11 13 12 14 13 14 14 14 13 15 15 15 14 15 8 16 9 16 12 16 9 17 13 17 12 17 10 18 14 18 11 18 11 19 14 19 15 19 8 20 12 20 10 20 10 21 12 21 14 21 9 22 11 22 13 22 11 23 15 23 13 23</p>
+        </polylist>
+        <polylist material="g10_link0_geom5_mat-material" count="12">
+          <input semantic="VERTEX" source="#g10_link0_geom7-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#g10_link0_geom7-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>16 24 18 24 17 24 17 25 18 25 19 25 20 26 21 26 22 26 21 27 23 27 22 27 16 28 17 28 20 28 17 29 21 29 20 29 18 30 22 30 19 30 19 31 22 31 23 31 16 32 20 32 18 32 18 33 20 33 22 33 17 34 19 34 21 34 19 35 23 35 21 35</p>
+        </polylist>
+        <polylist material="g10_link0_geom4_mat-material" count="12">
+          <input semantic="VERTEX" source="#g10_link0_geom7-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#g10_link0_geom7-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>24 36 26 36 25 36 25 37 26 37 27 37 28 38 29 38 30 38 29 39 31 39 30 39 24 40 25 40 28 40 25 41 29 41 28 41 26 42 30 42 27 42 27 43 30 43 31 43 24 44 28 44 26 44 26 45 28 45 30 45 25 46 27 46 29 46 27 47 31 47 29 47</p>
+        </polylist>
+        <polylist material="g10_link0_geom3_mat-material" count="12">
+          <input semantic="VERTEX" source="#g10_link0_geom7-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#g10_link0_geom7-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>32 48 34 48 33 48 33 49 34 49 35 49 36 50 37 50 38 50 37 51 39 51 38 51 32 52 33 52 36 52 33 53 37 53 36 53 34 54 38 54 35 54 35 55 38 55 39 55 32 56 36 56 34 56 34 57 36 57 38 57 33 58 35 58 37 58 35 59 39 59 37 59</p>
+        </polylist>
+        <polylist material="g10_link0_geom2_mat-material" count="12">
+          <input semantic="VERTEX" source="#g10_link0_geom7-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#g10_link0_geom7-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>40 60 42 60 41 60 41 61 42 61 43 61 44 62 45 62 46 62 45 63 47 63 46 63 40 64 41 64 44 64 41 65 45 65 44 65 42 66 46 66 43 66 43 67 46 67 47 67 40 68 44 68 42 68 42 69 44 69 46 69 41 70 43 70 45 70 43 71 47 71 45 71</p>
+        </polylist>
+        <polylist material="g10_link0_geom1_mat-material" count="12">
+          <input semantic="VERTEX" source="#g10_link0_geom7-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#g10_link0_geom7-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>48 72 50 72 49 72 49 73 50 73 51 73 52 74 53 74 54 74 53 75 55 75 54 75 48 76 49 76 52 76 49 77 53 77 52 77 50 78 54 78 51 78 51 79 54 79 55 79 48 80 52 80 50 80 50 81 52 81 54 81 49 82 51 82 53 82 51 83 55 83 53 83</p>
+        </polylist>
+        <polylist material="g10_link0_geom0_mat-material" count="12">
+          <input semantic="VERTEX" source="#g10_link0_geom7-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#g10_link0_geom7-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>56 84 58 84 57 84 57 85 58 85 59 85 60 86 61 86 62 86 61 87 63 87 62 87 56 88 57 88 60 88 57 89 61 89 60 89 58 90 62 90 59 90 59 91 62 91 63 91 56 92 60 92 58 92 58 93 60 93 62 93 57 94 59 94 61 94 59 95 63 95 61 95</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Camera" name="Camera" type="NODE">
+        <matrix sid="transform">0.6858805 -0.3173701 0.6548619 7.481132 0.7276338 0.3124686 -0.6106656 -6.50764 -0.01081678 0.8953432 0.4452454 5.343665 0 0 0 1</matrix>
+        <instance_camera url="#Camera-camera"/>
+      </node>
+      <node id="Lamp" name="Lamp" type="NODE">
+        <matrix sid="transform">-0.2908646 -0.7711008 0.5663932 4.076245 0.9551712 -0.1998834 0.2183912 1.005454 -0.05518906 0.6045247 0.7946723 5.903862 0 0 0 1</matrix>
+        <instance_light url="#Lamp-light"/>
+      </node>
+      <node id="Camera_001" name="Camera_001" type="NODE">
+        <matrix sid="transform">0.6858805 -0.3173701 0.6548619 7.481132 0.7276337 0.3124686 -0.6106656 -6.50764 -0.01081678 0.8953431 0.4452454 5.343665 0 0 0 1</matrix>
+        <instance_camera url="#Camera_001-camera"/>
+      </node>
+      <node id="Lamp_001" name="Lamp_001" type="NODE">
+        <matrix sid="transform">-0.2908647 -0.7711007 0.5663933 0.1252353 0.9551713 -0.1998833 0.2183912 1.005454 -0.05518912 0.6045247 0.7946723 1.389527 0 0 0 1</matrix>
+        <instance_light url="#Lamp_001-light"/>
+      </node>
+      <node id="ikeashelf_007" name="ikeashelf_007" type="NODE">
+        <matrix sid="transform">-8.78176e-7 -1 0 0.3307005 1 -8.78176e-7 0 -1.319463 0 0 1 -0.009040768 0 0 0 1</matrix>
+        <instance_geometry url="#g10_link0_geom7-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="g10_link0_geom7_mat-material" target="#g10_link0_geom7_mat-material"/>
+              <instance_material symbol="g10_link0_geom6_mat-material" target="#g10_link0_geom6_mat-material"/>
+              <instance_material symbol="g10_link0_geom5_mat-material" target="#g10_link0_geom5_mat-material"/>
+              <instance_material symbol="g10_link0_geom4_mat-material" target="#g10_link0_geom4_mat-material"/>
+              <instance_material symbol="g10_link0_geom3_mat-material" target="#g10_link0_geom3_mat-material"/>
+              <instance_material symbol="g10_link0_geom2_mat-material" target="#g10_link0_geom2_mat-material"/>
+              <instance_material symbol="g10_link0_geom1_mat-material" target="#g10_link0_geom1_mat-material"/>
+              <instance_material symbol="g10_link0_geom0_mat-material" target="#g10_link0_geom0_mat-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

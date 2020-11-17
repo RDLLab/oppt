@@ -1,0 +1,15 @@
+<map id="oppt::PluginOptions" name="oppt::PluginOptions">
+<area shape="rect" id="node5" href="$classoppt_1_1DefaultInitialBeliefOptions.html" title="oppt::DefaultInitialBelief\lOptions" alt="" coords="775,5,936,47"/>
+<area shape="rect" id="node6" href="$classoppt_1_1DefaultObservationPluginOptions.html" title="oppt::DefaultObservation\lPluginOptions" alt="" coords="772,71,939,112"/>
+<area shape="rect" id="node7" href="$classoppt_1_1DefaultRewardOptions.html" title="oppt::DefaultRewardOptions" alt="" coords="762,137,949,163"/>
+<area shape="rect" id="node8" href="$classoppt_1_1DefaultTerminalOptions.html" title="oppt::DefaultTerminalOptions" alt="" coords="759,187,951,214"/>
+<area shape="rect" id="node9" href="$classoppt_1_1DefaultTransitionPluginOptions.html" title="oppt::DefaultTransitionPlugin\lOptions" alt="" coords="760,239,951,280"/>
+<area shape="rect" id="node10" href="$classoppt_1_1DubinObservationPluginOptions.html" title="oppt::DubinObservationPlugin\lOptions" alt="" coords="758,304,953,345"/>
+<area shape="rect" id="node11" href="$classoppt_1_1DubinTransitionPluginOptions.html" title="oppt::DubinTransitionPlugin\lOptions" alt="" coords="764,369,947,411"/>
+<area shape="rect" id="node12" href="$classoppt_1_1RocksampleInitialBeliefOptions.html" title="oppt::RocksampleInitialBelief\lOptions" alt="" coords="759,435,951,476"/>
+<area shape="rect" id="node13" href="$classoppt_1_1RocksampleObservationPluginOptions.html" title="oppt::RocksampleObservation\lPluginOptions" alt="" coords="756,500,955,541"/>
+<area shape="rect" id="node14" href="$classoppt_1_1RRTHeuristicOptions.html" title="oppt::RRTHeuristicOptions" alt="" coords="765,566,945,593"/>
+<area shape="rect" id="node2" href="$structoppt_1_1ProblemEnvironmentOptions.html" title="oppt::ProblemEnvironment\lOptions" alt="" coords="348,304,524,345"/>
+<area shape="rect" id="node3" href="$structoppt_1_1Options.html" title="oppt::Options" alt="" coords="200,311,300,338"/>
+<area shape="rect" id="node4" href="$structoptions_1_1BaseOptions.html" title="options::BaseOptions" alt="" coords="5,311,152,338"/>
+</map>

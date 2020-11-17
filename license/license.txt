@@ -1,0 +1,8 @@
+License
+
+OPPT is licensed under EITHER (your option):
+    1. GNU GPL V2.
+    2. OPPT commercial license (please contact us at rdl.cecs.anu@gmail.com for details).
+    
+OPPT makes use of inih (http://code.google.com/p/inih/) and tclap (http://www.google.com/#q=tclap) to parse program options. The code inih is released under the New BSD License, while the code tclap is released under the MIT License.
+

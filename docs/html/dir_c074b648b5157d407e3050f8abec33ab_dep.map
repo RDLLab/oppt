@@ -1,0 +1,18 @@
+<map id="/home/marcus/PhD/scripts/oppt_devel_clean/src/oppt" name="/home/marcus/PhD/scripts/oppt_devel_clean/src/oppt">
+<area shape="rect" id="node2" href="dir_774542cfe5823effc1d450261b12ac3a.html" title="filter" alt="" coords="1129,27,1201,75"/>
+<area shape="rect" id="node3" href="dir_fb3636473257ac352b3c1896344b69cf.html" title="gazeboInterface" alt="" coords="991,27,1105,75"/>
+<area shape="rect" id="node4" href="dir_416626ea0bc79931a7f7a0441827e3cc.html" title="opptCore" alt="" coords="892,27,967,75"/>
+<area shape="rect" id="node5" href="dir_f302420bf1a5884726d7a51c07759f26.html" title="options" alt="" coords="471,123,543,171"/>
+<area shape="rect" id="node6" href="dir_41e81319e5d19aabccd9e8a978451ac9.html" title="plugin" alt="" coords="796,27,868,75"/>
+<area shape="rect" id="node7" href="dir_f2a233c1be0ab0ca478936bd3e76018d.html" title="problemEnvironment" alt="" coords="631,27,772,75"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000030_000026.html" title="1" alt="" coords="559,121,567,136"/>
+<area shape="rect" id="node11" href="dir_943fe37d4f5a3c927b246e3c813a5eb6.html" title="solver" alt="" coords="665,123,737,171"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000030_000039.html" title="1" alt="" coords="706,97,714,111"/>
+<area shape="rect" id="node8" href="dir_76ee70283f557d9dfd3355ed91dc592c.html" title="robotEnvironment" alt="" coords="482,27,606,75"/>
+<area shape="rect" id="node9" href="dir_2268eccec68c5c6ba2c56b131cd8700f.html" title="robotHeaders" alt="" coords="358,27,458,75"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000016_000026.html" title="1" alt="" coords="471,96,479,111"/>
+<area shape="rect" id="node10" href="dir_620f9f444ba2fc290a7ef73fd3fb651c.html" title="robots" alt="" coords="261,27,333,75"/>
+<area shape="rect" id="node12" href="dir_59ba49c13315fb927076e6bf4f90d4da.html" title="utils" alt="" coords="165,27,237,75"/>
+<area shape="rect" id="node13" href="dir_33c08ac1132eae9c0233cb4861622cd3.html" title="viewerPublisher" alt="" coords="27,27,141,75"/>
+<area shape="rect" id="clust1" href="dir_c074b648b5157d407e3050f8abec33ab.html" alt="" coords="16,16,1308,181"/>
+</map>

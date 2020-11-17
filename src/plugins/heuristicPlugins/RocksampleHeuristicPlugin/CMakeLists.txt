@@ -1,0 +1,1 @@
+ADD_HEURISTIC_PLUGIN(RocksampleHeuristicPlugin ${CMAKE_CURRENT_LIST_DIR}/RocksampleHeuristicPlugin.cpp)

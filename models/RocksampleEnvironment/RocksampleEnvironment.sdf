@@ -1,0 +1,306 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+<world name='world'>
+    <physics type="ode2">
+      <max_step_size>0.004</max_step_size>
+      <max_contacts>5</max_contacts>
+      <ode>
+        <solver>
+          <iters>25</iters>
+          <type>world</type>
+          <sor>1.3</sor>
+          <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>          
+          <cfm>0.0</cfm>          
+          <contact_surface_layer>0.0</contact_surface_layer>
+          <!--contact_max_correcting_vel>2000</contact_max_correcting_vel-->
+        </constraints>
+      </ode>
+    </physics>        
+    
+	
+    
+    <include>
+      <uri>model://RocksampleRobot</uri>
+      <pose>0.0 0.0 0.0 0 0 0</pose>
+    </include>   
+    
+  <model name="floor">
+      <pose frame=''>0 0 -0.75 0 0 0</pose>
+      <static>1</static>
+      <link name="floorlink">
+      <visual name="floorvisual">
+        <geometry>
+          <box>
+            <size>100 100 0.005</size>
+          </box>
+        </geometry>
+        <material>            
+            <ambient>0.46274509803921568627 0.6980392156862745098 1 1.0</ambient>
+          </material>
+      </visual>      
+    </link>
+  </model>
+  
+  <model name="Goal">
+      <pose frame=''>8 4 0 0 0 0</pose>
+      <static>1</static>
+      <link name="Goal1link">
+      <visual name="Goal1visual">
+        <geometry>
+          <box>
+            <size>1 7 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0 0.7 0 0.5</ambient>
+        </material>
+      </visual>      
+    </link>
+  </model>
+  
+  <model name="Border1">
+      <pose frame=''>0 4 0 0 0 0</pose>
+      <static>1</static>
+      <link name="Border1link">
+      <visual name="Border1visual">
+        <geometry>
+          <box>
+            <size>1 7 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>      
+    </link>
+  </model>
+  
+  <model name="Border2">
+      <pose frame=''>4 8 0 0 0 0</pose>
+      <static>1</static>
+      <link name="Border2link">
+      <visual name="Border2visual">
+        <geometry>
+          <box>
+            <size>9 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>      
+    </link>
+  </model>
+  
+  <model name="Border3">
+      <pose frame=''>4 0 0 0 0 0</pose>
+      <static>1</static>
+      <link name="Border3link">
+      <visual name="Border3visual">
+        <geometry>
+          <box>
+            <size>9 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>      
+    </link>
+  </model>
+  
+  <model name="rock1">
+      <pose frame=''>2 7 0 0 0 0</pose>
+      <static>1</static>
+      <link name="rock1link">
+      <visual name="rock1visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0 0 0 1.0</ambient>
+        </material>
+      </visual>
+      <collision name="rock1collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+  
+  <model name="rock2">
+      <pose frame=''>6 6 0 0 0 0</pose>
+      <static>1</static>
+      <link name="rock2link">
+      <visual name="rock2visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0 0 0 1.0</ambient>
+        </material>
+      </visual>
+      <collision name="rock2collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+  
+  <model name="rock3">
+      <pose frame=''>3 5 0 0 0 0</pose>
+      <static>1</static>
+      <link name="rock3link">
+      <visual name="rock3visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0 0 0 1.0</ambient>
+        </material>
+      </visual>
+      <collision name="rock3collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+  
+  <model name="rock4">
+      <pose frame=''>4 5 0 0 0 0</pose>
+      <static>1</static>
+      <link name="rock4link">
+      <visual name="rock4visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0 0 0 1.0</ambient>
+        </material>
+      </visual>
+      <collision name="rock4collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+  
+  <model name="rock5">
+      <pose frame=''>7 4 0 0 0 0</pose>
+      <static>1</static>
+      <link name="rock5link">
+      <visual name="rock5visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0 0 0 1.0</ambient>
+        </material>
+      </visual>
+      <collision name="rock5collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+  
+  <model name="rock6">
+      <pose frame=''>1 2 0 0 0 0</pose>
+      <static>1</static>
+      <link name="rock6link">
+      <visual name="rock6visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0 0 0 1.0</ambient>
+        </material>
+      </visual>
+      <collision name="rock6collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+  
+  <model name="rock7">
+      <pose frame=''>4 2 0 0 0 0</pose>
+      <static>1</static>
+      <link name="rock7link">
+      <visual name="rock7visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0 0 0 1.0</ambient>
+        </material>
+      </visual>
+      <collision name="rock7collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+  
+  <model name="rock8">
+      <pose frame=''>3 1 0 0 0 0</pose>
+      <static>1</static>
+      <link name="rock8link">
+      <visual name="rock8visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0 0 0 1.0</ambient>
+        </material>
+      </visual>
+      <collision name="rock8collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</world>
+</sdf>

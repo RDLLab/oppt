@@ -1,0 +1,30 @@
+# ...
+ # (compute PREFIX relative to file location)
+ # ...
+
+include("${CMAKE_CURRENT_LIST_DIR}/opptTargets.cmake")
+
+set(oppt_INCLUDE_DIRS @CMAKE_INSTALL_PREFIX@/@CMAKE_INSTALL_INCLUDEDIR@;@GZ_INCLUDE_DIRS@;@oppt_INCLUDE_TARGETS@)
+set(oppt_INCLUDE_TARGETS @oppt_INCLUDE_TARGETS@)
+set(oppt_LIBRARIES oppt)
+#set(oppt_LIBRARY_DIRS @oppt_LIBRARY_DIRS@)
+
+set(GZ_GT_7 @GZ_GT_7@)
+if (GZ_GT_7)
+  add_definitions(-DGZ_GT_7)
+endif ()
+
+add_definitions(-DUSE_DOUBLE_PRECISION=true)
+
+include("${CMAKE_CURRENT_LIST_DIR}/opptMacros.cmake")
+
+## Required, otherwise some neccessary ignition macros are not invoked
+find_package(gazebo REQUIRED)
+
+## Required on Ubuntu 20.04
+find_package(Boost
+             REQUIRED 
+             system 
+             thread             
+             filesystem 
+             serialization)

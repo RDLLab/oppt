@@ -1,0 +1,26 @@
+set(ROBOT_MODEL_SRC
+    ${CMAKE_CURRENT_LIST_DIR}/RobotModel.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/DiscreteRobotAction.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/ContinuousRobotActionContainer.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/ContinuousRobotAction.cpp               
+    ${CMAKE_CURRENT_LIST_DIR}/RobotObservation.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/RobotState.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/RobotTextSerializer.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/RobotSerializer.cpp               
+    ${CMAKE_CURRENT_LIST_DIR}/position_history.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/RobotTransitionParameters.cpp    
+    ${CMAKE_CURRENT_LIST_DIR}/ActionPool.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/treeInspector/TreeInspector.cpp    
+    ${CMAKE_CURRENT_LIST_DIR}/abtSimulator/ABTSimulator.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/belief/BeliefNode.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/belief/BeliefTree.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/solver/Solver.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/solver/StatePool.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/solver/StateInfo.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/solver/Histories.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/solver/HistorySequence.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/solver/HistoryEntry.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/mappings/approximateObservations.cpp 
+    ${CMAKE_CURRENT_LIST_DIR}/mappings/enumeratedObservations.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/stepper/Gps2StepGenerator.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/parsers.cpp)

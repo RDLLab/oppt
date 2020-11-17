@@ -1,0 +1,38 @@
+# Eclipse settings
+/.cproject
+/.project
+/.settings
+/EMPTY_HEADER.hpp
+
+# Local configuration settings
+/*local.make
+
+# Boost 1.48 built from source
+boost_1_48_0
+
+# Automatically generated documentation
+#docs/html
+#docs/generated
+
+# Binaries
+/builds
+/build
+simulate-ros
+simulate
+solve
+solve-mdp
+stest
+
+# Logging outputs
+core
+*.log
+*.pol
+*.pol2
+*.m
+*.prof
+
+# backup files
+*~
+
+# temporary python files
+*.pyc

@@ -1,0 +1,7 @@
+<map id="oppt::OpptUserData" name="oppt::OpptUserData">
+<area shape="rect" id="node2" href="$classoppt_1_1RobotState.html" title="oppt::RobotState" alt="" coords="33,80,154,107"/>
+<area shape="rect" id="node5" href="$classoppt_1_1RobotStateUserData.html" title="oppt::RobotStateUserData" alt="" coords="178,80,355,107"/>
+<area shape="rect" id="node6" href="$classoppt_1_1Trajectory.html" title="oppt::Trajectory" alt="" coords="379,80,493,107"/>
+<area shape="rect" id="node3" href="$classoppt_1_1WeightedRobotState.html" title="oppt::WeightedRobotState" alt="" coords="5,155,181,181"/>
+<area shape="rect" id="node4" href="$classoppt_1_1VectorState.html" title="oppt::VectorState" alt="" coords="31,229,155,256"/>
+</map>

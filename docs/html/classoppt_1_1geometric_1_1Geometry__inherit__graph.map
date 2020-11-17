@@ -1,0 +1,6 @@
+<map id="oppt::geometric::Geometry" name="oppt::geometric::Geometry">
+<area shape="rect" id="node2" href="$classoppt_1_1geometric_1_1Box.html" title="oppt::geometric::Box" alt="" coords="243,5,386,32"/>
+<area shape="rect" id="node3" href="$classoppt_1_1geometric_1_1Cylinder.html" title="oppt::geometric::Cylinder" alt="" coords="231,56,399,83"/>
+<area shape="rect" id="node4" href="$classoppt_1_1geometric_1_1Mesh.html" title="oppt::geometric::Mesh" alt="" coords="239,107,391,133"/>
+<area shape="rect" id="node5" href="$classoppt_1_1geometric_1_1Sphere.html" title="oppt::geometric::Sphere" alt="" coords="234,157,395,184"/>
+</map>

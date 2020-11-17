@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+<world name='world'>
+    <physics type="ode2">
+      <max_step_size>0.004</max_step_size>
+      <max_contacts>100</max_contacts>
+      <ode>
+        <solver>
+          <iters>25</iters>
+          <type>world</type>
+          <sor>1.3</sor>
+          <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>          
+          <cfm>0</cfm>
+          <contact_surface_layer>0.0</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>        
+    <model name='GoalArea'>
+      <pose frame=''>0 4.0 0.0 0 -0 0</pose>
+      <static>1</static>
+      <link name='chassis'>            
+        <visual name='GoalArea_visual'>
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.3</radius>
+            </sphere>
+          </geometry>          
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+            <ambient>0 1 0 0.5</ambient>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+	
+    <model name="4DOFManipulator">
+      <static>false</static>
+      <include>
+        <uri>model://4DOFManipulator</uri>
+        <pose>0.0 0.0 0.0 0 0 0</pose>
+      </include>
+    </model>
+  
+  <model name="base">
+      <pose frame=''>0 0 -0.425 0 0 0</pose>
+      <static>1</static>
+      <link name="baselink">
+      <visual name="basevisual">
+        <geometry>
+          <box>
+            <size>0.15 0.15 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0.2 0.2 0.2 1.0</ambient>
+        </material>
+      </visual>
+    </link>
+  </model>
+    
+  
+  
+        
+        <light name='user_spot_light_0' type='spot'>
+      <pose frame=''>-0.008974 0.005149 2 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>0 0 -1</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <spot>
+        <inner_angle>0.6</inner_angle>
+        <outer_angle>1</outer_angle>
+        <falloff>1</falloff>
+      </spot>
+    </light>
+    <light name='user_directional_light_0' type='directional'>
+      <pose frame=''>0.080405 1.64708 1 -0.7 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>0.1 0.1 -0.9</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+    </light>
+</world>
+</sdf>
