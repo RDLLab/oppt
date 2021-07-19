@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <model name='Dubin'>
+    <link name="DubinLink">
+      <pose frame=''>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose frame='DubinLink'>0 0 0 0 0 0</pose>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.005</ixx>
+          <ixy>0.</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.006</iyy>
+          <izz>0.003</izz>
+        </inertia>        
+      </inertial>
+      <collision name='DubinLink_collision'>
+        <pose frame=''>0 0 0 0 0 0</pose>        
+        <geometry>
+          <box>
+            <size>0.06 0.035 0.035</size>
+          </box>          
+        </geometry>      
+      </collision>  
+      <visual name='DubinLink_visual'>
+        <pose frame=''>0 0 0 0 0 0</pose>      
+        <geometry>
+          <box>
+            <size>0.06 0.035 0.035</size>
+          </box>          
+        </geometry>
+        <material>          
+          <ambient>1.0 0.5019607843137254902 0 1.0</ambient>
+        </material>      
+      </visual>
+      <gravity>0</gravity>
+      <self_collide>0</self_collide>
+    </link>
+  </model>
+</sdf>

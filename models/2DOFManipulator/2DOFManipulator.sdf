@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <model name='2DOFManipulator'>
+    <link name="link1">
+      <pose frame=''>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose frame='link1'>0.5 0 0 0 0 0</pose>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.005</ixx>
+          <ixy>0.</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.006</iyy>
+          <izz>0.003</izz>
+        </inertia>        
+      </inertial>
+      <collision name='link1_collision'>
+        <pose frame=''>0.5 0 0 0 0 0</pose>        
+        <geometry>
+          <box>
+            <size>1 0.15 0.15</size>
+          </box>          
+        </geometry>      
+      </collision>  
+      <visual name='link1_visual'>
+        <pose frame=''>0.5 0 0 0 0 0</pose>      
+        <geometry>
+          <box>
+            <size>1 0.15 0.15</size>
+          </box>          
+        </geometry>
+        <material>          
+          <ambient>1.0 0.5019607843137254902 0 1.0</ambient>
+        </material>      
+      </visual>
+      <self_collide>0</self_collide>
+    </link>
+    
+    <link name="link2">
+      <pose frame=''>1 0 0 0 0 0</pose>
+      <inertial>
+        <pose frame='link2'>0.5 0 0 0 0 0</pose>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.005</ixx>
+          <ixy>0.</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.006</iyy>
+          <izz>0.003</izz>
+        </inertia>  
+      </inertial>
+      <collision name='link2_collision'>
+        <pose frame=''>0.5 0 0 0 0 0</pose>        
+        <geometry>
+          <box>
+            <size>1 0.15 0.15</size>
+          </box>          
+        </geometry>      
+      </collision>  
+      <visual name='link2_visual'>
+        <pose frame=''>0.5 0 0 0 0 0</pose>      
+        <geometry>
+          <box>
+            <size>1 0.15 0.15</size>
+          </box>          
+        </geometry>
+        <material>          
+          <ambient>1.0 0.5019607843137254902 0 1.0</ambient>
+        </material>      
+      </visual>
+      <self_collide>0</self_collide>  
+    </link>
+    
+    <joint name="joint1" type="revolute">
+      <parent>world</parent>
+      <child>link1</child>
+      <axis>
+        <xyz>0 0 1</xyz>      
+        <limit>
+          <lower>-1.5</lower>
+          <upper>4.0</upper>
+          <velocity>3</velocity>
+          <effort>10</effort>
+        </limit>
+        <dynamics>
+          <damping>1.0</damping>
+          <friction>0.2</friction>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame> 
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+          <bounce>0</bounce>
+          <limit>
+            <erp>0.9</erp>
+            <cfm>0</cfm>
+          </limit>
+        </ode>
+      </physics>    
+    </joint>
+    
+    <joint name="joint2" type="revolute">
+      <parent>link1</parent>
+      <child>link2</child>
+      <axis>
+        <xyz>0 1 0</xyz>      
+        <limit>
+          <lower>-3.14</lower>
+          <upper>4.14</upper>
+          <velocity>2</velocity>
+          <effort>8</effort>
+        </limit>
+        <dynamics>
+          <damping>1.0</damping>
+          <friction>0.2</friction>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame> 
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+          <bounce>0</bounce>
+          <limit>
+            <erp>0.9</erp>
+            <cfm>0</cfm>
+          </limit>
+        </ode>
+      </physics>    
+    </joint>
+  </model>
+</sdf>

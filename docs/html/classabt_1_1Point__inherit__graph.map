@@ -1,0 +1,10 @@
+<map id="abt::Point" name="abt::Point">
+<area shape="rect" id="node1" title=" " alt="" coords="5,69,84,96"/>
+<area shape="rect" id="node2" href="$classabt_1_1ContinuousAction.html" title=" " alt="" coords="132,12,283,39"/>
+<area shape="rect" id="node4" href="$classabt_1_1DiscretizedPoint.html" title=" " alt="" coords="135,69,279,96"/>
+<area shape="rect" id="node7" href="$classabt_1_1Vector.html" title=" " alt="" coords="164,132,251,159"/>
+<area shape="rect" id="node3" href="$classrobot_1_1ContinuousRobotAction.html" title=" " alt="" coords="331,5,528,32"/>
+<area shape="rect" id="node5" href="$classrobot_1_1DiscreteRobotAction.html" title=" " alt="" coords="339,56,519,83"/>
+<area shape="rect" id="node6" href="$classshared_1_1RobotObservation.html" title=" " alt="" coords="342,107,517,133"/>
+<area shape="rect" id="node8" href="$classshared_1_1RobotState.html" title=" " alt="" coords="362,157,497,184"/>
+</map>

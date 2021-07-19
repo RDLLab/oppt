@@ -1,0 +1,38 @@
+<map id="/home/marcus/PhD/scripts/oppt/src/solvers/ABT/solver/mappings/observations/ObservationMapping.hpp" name="/home/marcus/PhD/scripts/oppt/src/solvers/ABT/solver/mappings/observations/ObservationMapping.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="2203,5,2511,61"/>
+<area shape="rect" id="node2" href="$enumeratedObservations_8hpp_source.html" title=" " alt="" coords="2701,235,2957,291"/>
+<area shape="rect" id="node9" href="$Model_8cpp.html" title=" " alt="" coords="2253,235,2441,291"/>
+<area shape="rect" id="node10" href="$ActionNode_8hpp.html" title=" " alt="" coords="1268,117,1456,173"/>
+<area shape="rect" id="node13" href="$ActionNode_8cpp.html" title=" " alt="" coords="5,235,193,291"/>
+<area shape="rect" id="node14" href="$solver_2BeliefNode_8cpp.html" title=" " alt="" coords="217,235,405,291"/>
+<area shape="rect" id="node15" href="$DefaultHistoryCorrector_8cpp.html" title=" " alt="" coords="429,235,671,291"/>
+<area shape="rect" id="node28" href="$TextSerializer_8cpp.html" title=" " alt="" coords="1814,235,2017,291"/>
+<area shape="rect" id="node29" href="$solver_2Solver_8cpp.html" title=" " alt="" coords="2041,235,2229,291"/>
+<area shape="rect" id="node30" href="$approximate__observations_8hpp.html" title=" " alt="" coords="3415,109,3650,180"/>
+<area shape="rect" id="node32" href="$approximate__observations_8cpp.html" title=" " alt="" coords="3338,228,3573,299"/>
+<area shape="rect" id="node33" href="$discrete__observations_8hpp.html" title=" " alt="" coords="2323,109,2534,180"/>
+<area shape="rect" id="node34" href="$discrete__observations_8cpp.html" title=" " alt="" coords="2466,228,2677,299"/>
+<area shape="rect" id="node35" href="$enumerated__observations_8hpp.html" title=" " alt="" coords="2878,109,3110,180"/>
+<area shape="rect" id="node36" href="$enumerated__observations_8cpp.html" title=" " alt="" coords="3082,228,3314,299"/>
+<area shape="rect" id="node3" href="$RobotModel_8hpp.html" title=" " alt="" coords="1232,591,1449,647"/>
+<area shape="rect" id="node4" href="$solverABT_8hpp_source.html" title=" " alt="" coords="485,710,722,751"/>
+<area shape="rect" id="node5" href="$position__history_8hpp.html" title=" " alt="" coords="1232,703,1449,759"/>
+<area shape="rect" id="node8" href="$solvers_2ABT_2robotModel_2RobotSerializer_8hpp_source.html" title=" " alt="" coords="2605,703,2823,759"/>
+<area shape="rect" id="node6" href="$position__history_8cpp.html" title=" " alt="" coords="916,807,1133,863"/>
+<area shape="rect" id="node7" href="$RobotTextSerializer_8hpp_source.html" title=" " alt="" coords="2295,807,2512,863"/>
+<area shape="rect" id="node11" href="$TreeInspector_8hpp_source.html" title=" " alt="" coords="504,473,721,529"/>
+<area shape="rect" id="node16" href="$continuous__actions_8hpp.html" title=" " alt="" coords="797,228,991,299"/>
+<area shape="rect" id="node20" href="$continuous__actions_8cpp.html" title=" " alt="" coords="1410,347,1605,417"/>
+<area shape="rect" id="node22" href="$discretized__actions_8hpp.html" title=" " alt="" coords="1595,228,1790,299"/>
+<area shape="rect" id="node23" href="$discretized__actions_8cpp.html" title=" " alt="" coords="1629,347,1823,417"/>
+<area shape="rect" id="node26" href="$gps__search_8cpp.html" title=" " alt="" coords="1016,235,1231,291"/>
+<area shape="rect" id="node27" href="$ucb__search_8cpp.html" title=" " alt="" coords="1255,235,1469,291"/>
+<area shape="rect" id="node12" href="$ABTSimulator_8hpp_source.html" title=" " alt="" coords="504,591,721,647"/>
+<area shape="rect" id="node17" href="$RobotAction_8hpp_source.html" title=" " alt="" coords="1065,354,1283,410"/>
+<area shape="rect" id="node21" href="$gps__choosers_8cpp.html" title=" " alt="" coords="800,347,988,417"/>
+<area shape="rect" id="node18" href="$ContinuousRobotActionContainer_8hpp_source.html" title=" " alt="" coords="1212,473,1456,529"/>
+<area shape="rect" id="node19" href="$robotModel_2ActionPool_8hpp_source.html" title=" " alt="" coords="2017,591,2235,647"/>
+<area shape="rect" id="node24" href="$enumerated__actions_8hpp.html" title=" " alt="" coords="2211,465,2411,536"/>
+<area shape="rect" id="node25" href="$enumerated__actions_8cpp.html" title=" " alt="" coords="2259,584,2459,655"/>
+<area shape="rect" id="node31" href="$approximateObservations_8hpp_source.html" title=" " alt="" coords="3223,473,3482,529"/>
+</map>

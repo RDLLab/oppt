@@ -1,0 +1,23 @@
+<map id="options::BaseOptions" name="options::BaseOptions">
+<area shape="rect" id="node1" title=" " alt="" coords="5,521,152,547"/>
+<area shape="rect" id="node2" href="$structoppt_1_1Options.html" title=" " alt="" coords="200,521,300,547"/>
+<area shape="rect" id="node3" href="$structoppt_1_1ProblemEnvironmentOptions.html" title=" " alt="" coords="348,513,524,555"/>
+<area shape="rect" id="node4" href="$structoppt_1_1PluginOptions.html" title=" " alt="" coords="599,377,735,403"/>
+<area shape="rect" id="node17" href="$classoppt_1_1RobotConfigOptions.html" title=" " alt="" coords="580,462,753,489"/>
+<area shape="rect" id="node18" href="$structoppt_1_1ShowSceneSolverStubOptions.html" title=" " alt="" coords="572,513,761,555"/>
+<area shape="rect" id="node19" href="$structoppt_1_1SolverStubOptions.html" title=" " alt="" coords="585,579,749,606"/>
+<area shape="rect" id="node20" href="$structshared_1_1SharedOptions.html" title=" " alt="" coords="589,698,744,725"/>
+<area shape="rect" id="node5" href="$classoppt_1_1DefaultInitialBeliefOptions.html" title=" " alt="" coords="838,5,999,47"/>
+<area shape="rect" id="node6" href="$classoppt_1_1DefaultObservationPluginOptions.html" title=" " alt="" coords="835,71,1002,112"/>
+<area shape="rect" id="node7" href="$classoppt_1_1DefaultRewardOptions.html" title=" " alt="" coords="825,137,1012,163"/>
+<area shape="rect" id="node8" href="$classoppt_1_1DefaultTerminalOptions.html" title=" " alt="" coords="823,187,1014,214"/>
+<area shape="rect" id="node9" href="$classoppt_1_1DefaultTransitionPluginOptions.html" title=" " alt="" coords="823,239,1014,280"/>
+<area shape="rect" id="node10" href="$classoppt_1_1DubinObservationPluginOptions.html" title=" " alt="" coords="821,304,1016,345"/>
+<area shape="rect" id="node11" href="$classoppt_1_1DubinTransitionPluginOptions.html" title=" " alt="" coords="827,369,1010,411"/>
+<area shape="rect" id="node12" href="$classoppt_1_1RocksampleHeuristicOptions.html" title=" " alt="" coords="829,435,1009,476"/>
+<area shape="rect" id="node13" href="$classoppt_1_1RocksampleInitialBeliefOptions.html" title=" " alt="" coords="823,500,1015,541"/>
+<area shape="rect" id="node14" href="$classoppt_1_1RocksampleObservationPluginOptions.html" title=" " alt="" coords="819,565,1018,607"/>
+<area shape="rect" id="node15" href="$classoppt_1_1RocksampleRewardOptions.html" title=" " alt="" coords="809,631,1028,658"/>
+<area shape="rect" id="node16" href="$classoppt_1_1RRTHeuristicOptions.html" title=" " alt="" coords="829,682,1009,709"/>
+<area shape="rect" id="node21" href="$structoppt_1_1ABTExtendedOptions.html" title=" " alt="" coords="828,733,1009,759"/>
+</map>

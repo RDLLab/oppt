@@ -1,0 +1,18 @@
+<map id="/home/marcus/PhD/scripts/oppt/src/oppt" name="/home/marcus/PhD/scripts/oppt/src/oppt">
+<area shape="rect" id="node2" href="dir_bfc7eec84fabecd44852df2822802eda.html" title="filter" alt="" coords="1129,27,1201,75"/>
+<area shape="rect" id="node3" href="dir_bb63d843d18cd9f0dc3b2bca9425083e.html" title="gazeboInterface" alt="" coords="991,27,1105,75"/>
+<area shape="rect" id="node4" href="dir_64d54efbd57f6ead1e86ba7ebd271bfc.html" title="opptCore" alt="" coords="892,27,967,75"/>
+<area shape="rect" id="node5" href="dir_9eb0997c544d19a62b26a8533efe6af6.html" title="options" alt="" coords="471,123,543,171"/>
+<area shape="rect" id="node6" href="dir_a7d0c221fa246476b972f2891a36f581.html" title="plugin" alt="" coords="796,27,868,75"/>
+<area shape="rect" id="node7" href="dir_5ac44d8d8d44f4e58ce73dd647cb461f.html" title="problemEnvironment" alt="" coords="631,27,772,75"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000050_000048.html" title="1" alt="" coords="559,120,567,135"/>
+<area shape="rect" id="node11" href="dir_b8cd40b0b6c274ea6b66e5db78caa419.html" title="solver" alt="" coords="665,123,737,171"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000050_000054.html" title="1" alt="" coords="706,97,714,112"/>
+<area shape="rect" id="node8" href="dir_86bbf1536af001c3b35e35c3aa59b06d.html" title="robotEnvironment" alt="" coords="482,27,606,75"/>
+<area shape="rect" id="node9" href="dir_06d1fe64b825b45c909b2042972a312a.html" title="robotHeaders" alt="" coords="358,27,458,75"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000052_000048.html" title="1" alt="" coords="471,97,479,111"/>
+<area shape="rect" id="node10" href="dir_b5137f18600296ce429003834e04c010.html" title="robots" alt="" coords="261,27,333,75"/>
+<area shape="rect" id="node12" href="dir_3b4b72c3742f770d13b5206e90ae8d1c.html" title="utils" alt="" coords="165,27,237,75"/>
+<area shape="rect" id="node13" href="dir_a3a60036b9f132091485ed32b66b49b6.html" title="viewerPublisher" alt="" coords="27,27,141,75"/>
+<area shape="rect" id="clust1" href="dir_857731448c5f8cb930c805f796db242e.html" alt="" coords="16,16,1308,181"/>
+</map>

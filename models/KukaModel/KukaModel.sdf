@@ -1,0 +1,617 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <model name='KukaModel'> 
+    <link name='lwr_base_link'>
+      <pose frame=''>0 0 0.0 0 -0 0</pose>
+      <inertial>
+        <pose frame='lwr_base_link'>0 0 0.055 0 -0 0</pose>
+        <mass>2</mass>
+        <inertia>
+          <ixx>0.00381667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0036</iyy>
+          <iyz>0</iyz>
+          <izz>0.00381667</izz>
+        </inertia>
+      </inertial>
+      <collision name='lwr_base_link_collision'>
+        <pose frame=''>0 0 0.055 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.14 0.14 0.11</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='lwr_base_link_visual'>
+        <pose frame=''>0 0 0 0 0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://KukaModel/meshes/lwr4plus/visual/base.STL</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <ambient>1.0 0.487 0 1.0</ambient>
+        </material>
+      </visual>
+      <gravity>1</gravity>
+      <velocity_decay/>
+      <gravity>1</gravity>
+    </link>
+    <joint name="fixed_to_ground" type="revolute">
+        <parent>world</parent>
+        <child>lwr_base_link</child>
+        <axis>
+          <limit>
+            <lower>0</lower>
+            <upper>0</upper>
+          </limit>
+          <xyz>0 0 1</xyz>
+        </axis>
+      </joint>       
+    <link name='lwr_1_link'>
+      <pose frame=''>0 0 0.11 0 -0 0</pose>
+      <inertial>
+        <pose frame='lwr_1_link'>0 -0.06 0.13 0 -0 0</pose>
+        <mass>2.35</mass>
+        <inertia>
+          <ixx>0.0160583</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.003525</iyy>
+          <iyz>0</iyz>
+          <izz>0.0139433</izz>
+        </inertia>
+      </inertial>
+      <collision name='lwr_1_link_collision'>
+        <pose frame=''>0 0 0.10025 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.14 0.14 0.2005</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='lwr_1_link_visual'>
+        <pose frame=''>0 0 -0.008 0 -0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://KukaModel/meshes/lwr4plus/visual/link_1.STL</uri>
+          </mesh>
+        </geometry>        
+        <material>          
+          <ambient>1.0 0.487 0 1.0</ambient>
+        </material>
+      </visual>
+      <gravity>1</gravity>
+      <velocity_decay/>
+      <gravity>1</gravity>
+    </link>
+    <joint name='lwr_a1_joint' type='revolute'>
+      <child>lwr_1_link</child>
+      <parent>lwr_base_link</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-2.96706</lower>
+          <upper>2.96706</upper>
+          <effort>15</effort>
+          <velocity>3.91986</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.0</damping>
+          <friction>0.2</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+          <bounce>0</bounce>
+          <limit>
+            <erp>0.8</erp>
+          </limit>
+        </ode>
+      </physics>
+    </joint>
+    <link name='lwr_2_link'>
+      <pose frame=''>0 0 0.3105 0 -0 0</pose>
+      <inertial>
+        <pose frame='lwr_2_link'>0 0.06 0.07 0 -0 0</pose>
+        <!--pose frame='lwr_2_link'>0 0.00 0.00 0 -0 0</pose-->
+        <mass>2.35</mass>
+        <inertia>
+          <ixx>0.0160583</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.003525</iyy>
+          <iyz>0</iyz>
+          <izz>0.0139433</izz>
+        </inertia>
+      </inertial>
+      <collision name='lwr_2_link_collision'>
+        <pose frame=''>0 0 0.1 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.14 0.14 0.2</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='lwr_2_link_visual'>
+        <pose frame=''>0 0 0 0 -0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://KukaModel/meshes/lwr4plus/visual/link_2.STL</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <ambient>1.0 0.487 0 1.0</ambient>
+        </material>
+      </visual>
+      <!--sensor name='lwr_2_link_contact' type='contact'>
+        <update_rate>0</update_rate>
+        <contact>
+          <collision>lwr_2_link_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+      </sensor-->
+      <gravity>1</gravity>
+      <velocity_decay/>
+      <gravity>1</gravity>
+    </link>
+    <joint name='lwr_a2_joint' type='revolute'>
+      <child>lwr_2_link</child>
+      <parent>lwr_1_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-2.0944</lower>
+          <upper>2.0944</upper>
+          <effort>13</effort>
+          <velocity>2.91986</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.0</damping>
+          <friction>0.2</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+          <bounce>0</bounce>
+          <limit>
+            <erp>0.8</erp>
+          </limit>
+        </ode>
+      </physics>
+    </joint>
+    <link name='lwr_3_link'>
+      <pose frame=''>0 0 0.5105 0 -0 0</pose>
+      <inertial>
+        <pose frame='lwr_3_link'>0 0.06 0.13 0 -0 0</pose>
+        <mass>2.35</mass>
+        <inertia>
+          <ixx>0.0160583</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.003525</iyy>
+          <iyz>0</iyz>
+          <izz>0.0139433</izz>
+        </inertia>
+      </inertial>
+      <collision name='lwr_3_link_collision'>
+        <pose frame=''>0 0 0.1 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.14 0.14 0.2</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='lwr_3_link_visual'>
+        <pose frame=''>0 0 -0.008 0 -0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://KukaModel/meshes/lwr4plus/visual/link_3.STL</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <ambient>1.0 0.487 0 1.0</ambient>
+        </material>
+      </visual>
+      <!--sensor name='lwr_3_link_contact' type='contact'>
+        <update_rate>0</update_rate>
+        <contact>
+          <collision>lwr_2_link_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+      </sensor-->
+      <gravity>1</gravity>
+      <velocity_decay/>
+      <gravity>1</gravity>
+    </link>
+    <joint name='lwr_e1_joint' type='revolute'>
+      <child>lwr_3_link</child>
+      <parent>lwr_2_link</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-2.96706</lower>
+          <upper>2.96706</upper>
+          <effort>10</effort>
+          <velocity>2.53402</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.0</damping>
+          <friction>0.2</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+          <bounce>0</bounce>
+          <limit>
+            <erp>0.8</erp>
+          </limit>
+        </ode>
+      </physics>
+    </joint>
+    <link name='lwr_4_link'>
+      <pose frame=''>0 0 0.7105 0 -0 0</pose>
+      <inertial>
+        <pose frame='lwr_4_link'>0 -0.06 0.07 0 -0 0</pose>
+        <mass>2.35</mass>
+        <inertia>
+          <ixx>0.0160583</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.003525</iyy>
+          <iyz>0</iyz>
+          <izz>0.0139433</izz>
+        </inertia>
+      </inertial>
+      <collision name='lwr_4_link_collision'>
+        <pose frame=''>0 0 0.1 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.14 0.14 0.2</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='lwr_4_link_visual'>
+        <pose frame=''>0 0 0 0 -0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://KukaModel/meshes/lwr4plus/visual/link_4.STL</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <ambient>1.0 0.487 0 1.0</ambient>
+        </material>
+      </visual>
+      <!--sensor name='lwr_4_link_contact' type='contact'>
+        <update_rate>0</update_rate>
+        <contact>
+          <collision>lwr_2_link_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+      </sensor-->
+      <gravity>1</gravity>
+      <velocity_decay/>
+      <gravity>1</gravity>
+    </link>
+    <joint name='lwr_a3_joint' type='revolute'>
+      <child>lwr_4_link</child>
+      <parent>lwr_3_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-2.0944</lower>
+          <upper>2.0944</upper>
+          <effort>18</effort>
+          <velocity>2.23402</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.0</damping>
+          <friction>0.2</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+          <bounce>0</bounce>
+          <limit>
+            <erp>0.8</erp>
+          </limit>
+        </ode>
+      </physics>
+    </joint>
+    <link name='lwr_5_link'>
+      <pose frame=''>0 0 0.9105 0 -0 0</pose>
+      <inertial>
+        <pose frame='lwr_5_link'>0 0 0.124 0 -0 0</pose>
+        <mass>2.35</mass>
+        <inertia>
+          <ixx>0.0148645</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.003525</iyy>
+          <iyz>0</iyz>
+          <izz>0.0127495</izz>
+        </inertia>
+      </inertial>
+      <collision name='lwr_5_link_collision'>
+        <pose frame=''>0 0 0.095 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.14 0.14 0.19</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='lwr_5_link_visual'>
+        <pose frame=''>0 0 -0.008 0 -0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://KukaModel/meshes/lwr4plus/visual/link_5.STL</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <ambient>1.0 0.487 0 1.0</ambient>
+        </material>
+      </visual>      
+      <gravity>1</gravity>
+      <velocity_decay/>
+      <gravity>1</gravity>
+    </link>
+    <joint name='lwr_a4_joint' type='revolute'>
+      <child>lwr_5_link</child>
+      <parent>lwr_4_link</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-2.96706</lower>
+          <upper>2.96706</upper>
+          <effort>10</effort>
+          <velocity>2.56047</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.0</damping>
+          <friction>0.2</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+          <bounce>0</bounce>
+          <limit>
+            <erp>0.8</erp>
+          </limit>
+        </ode>
+      </physics>
+    </joint>
+    <link name='lwr_6_link'>
+      <pose frame=''>0 0 1.1005 0 -0 0</pose>
+      <inertial>
+        <pose frame='lwr_6_link'>0 0 0.0625 0 -0 0</pose>
+        <mass>1.1</mass>
+        <inertia>
+          <ixx>0.00286458</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00286458</iyy>
+          <iyz>0</iyz>
+          <izz>0.00286458</izz>
+        </inertia>
+      </inertial>
+      <collision name='lwr_6_link_collision'>
+        <pose frame=''>0 0 0.039 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.14 0.14 0.078</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='lwr_6_link_visual'>
+        <pose frame=''>0 0 0 0 -0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://KukaModel/meshes/lwr4plus/visual/link_6.STL</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <ambient>0.7 0.7 0.7 1.0</ambient>
+        </material>
+      </visual>
+      <!--sensor name='lwr_6_link_contact' type='contact'>
+        <update_rate>0</update_rate>
+        <contact>
+          <collision>lwr_2_link_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+      </sensor-->
+      <gravity>1</gravity>
+      <velocity_decay/>
+      <gravity>1</gravity>
+    </link>
+    <joint name='lwr_a5_joint' type='revolute'>
+      <child>lwr_6_link</child>
+      <parent>lwr_5_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-2.0944</lower>
+          <upper>2.0944</upper>
+          <effort>8</effort>
+          <velocity>3.21141</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.0</damping>
+          <friction>0.2</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+          <bounce>0</bounce>
+          <limit>
+            <erp>0.8</erp>
+          </limit>
+        </ode>
+      </physics>
+    </joint>
+    <link name='lwr_7_link'>
+      <pose frame=''>0 0 1.1785 0 -0 0</pose>
+      <inertial>
+        <pose frame='lwr_7_link'>0 0 0 0 -0 0</pose>
+        <mass>0.25</mass>
+        <inertia>
+          <ixx>0.000416667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000416667</iyy>
+          <iyz>0</iyz>
+          <izz>0.000416667</izz>
+        </inertia>
+      </inertial>
+      <collision name='lwr_7_link_collision'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.08 0.08 0.004</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='lwr_7_link_visual'>
+        <pose frame=''>0 0 0 0 -0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://KukaModel/meshes/lwr4plus/visual/link_7.STL</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <ambient>0.3 0.3 0.3 1.0</ambient>
+        </material>
+      </visual>      
+      <gravity>1</gravity>
+      <velocity_decay/>
+      <gravity>1</gravity>
+    </link>
+    <joint name='lwr_a6_joint' type='revolute'>
+      <child>lwr_7_link</child>
+      <parent>lwr_6_link</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-2.96706</lower>
+          <upper>2.96706</upper>
+          <effort>2</effort>
+          <velocity>2.21141</velocity>
+        </limit>
+        <dynamics>
+          <damping>10.0</damping>
+          <friction>10.0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+          <bounce>0</bounce>
+          <limit>
+            <erp>0.8</erp>
+          </limit>
+        </ode>
+      </physics>
+    </joint>
+    <static>0</static>
+  </model>
+</sdf>

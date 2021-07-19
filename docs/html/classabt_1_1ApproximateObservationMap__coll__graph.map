@@ -1,0 +1,11 @@
+<map id="abt::ApproximateObservationMap" name="abt::ApproximateObservationMap">
+<area shape="rect" id="node1" title=" " alt="" coords="756,23,972,49"/>
+<area shape="rect" id="node2" href="$classabt_1_1ObservationMapping.html" title=" " alt="" coords="423,5,589,32"/>
+<area shape="rect" id="node3" href="$classabt_1_1Solver.html" title=" " alt="" coords="463,85,549,112"/>
+<area shape="rect" id="node6" href="$classabt_1_1BeliefNode.html" title=" " alt="" coords="808,176,920,203"/>
+<area shape="rect" id="node4" href="$structoppt_1_1Options.html" title=" " alt="" coords="201,85,301,112"/>
+<area shape="rect" id="node5" href="$structoptions_1_1BaseOptions.html" title=" " alt="" coords="5,85,152,112"/>
+<area shape="rect" id="node7" href="$classoppt_1_1RandomAccessSet.html" title=" " alt="" coords="422,162,590,203"/>
+<area shape="rect" id="node8" href="$classabt_1_1ObservationMappingEntry.html" title=" " alt="" coords="407,228,605,255"/>
+<area shape="rect" id="node9" href="$classabt_1_1CachedValue.html" title=" " alt="" coords="403,279,609,305"/>
+</map>

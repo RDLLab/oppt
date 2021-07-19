@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+<world name='world'>
+    <physics type="ode">
+      <max_step_size>0.004</max_step_size>
+      <max_contacts>5</max_contacts>
+      <ode>
+        <solver>
+          <iters>25</iters>
+          <type>world</type>
+          <sor>1.3</sor>
+          <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>          
+          <cfm>0.0</cfm>          
+          <contact_surface_layer>0.0</contact_surface_layer>          
+        </constraints>
+      </ode>
+    </physics>  
+    
+    <!-- The sphere-shaped goal area the robot has to reach -->      
+    <model name='GoalArea'>
+      <pose frame=''>-2.0 0.0 0.0 0 -0 0</pose>
+      <static>1</static>
+      <link name='GoalArea_link'>            
+        <visual name='GoalArea_visual'>
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.3</radius>
+            </sphere>
+          </geometry>          
+          <material>            
+            <ambient>0 1 0 0.5</ambient>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+	
+    
+    <include>
+      <uri>model://2DOFManipulator</uri>
+      <pose>0.0 0.0 0.0 0 0 0</pose>
+    </include>   
+    
+  <model name="floor">
+      <pose frame=''>0 0 -0.75 0 0 0</pose>
+      <static>1</static>
+      <link name="floorlink">
+      <visual name="floorvisual">
+        <geometry>
+          <box>
+            <size>100 100 0.005</size>
+          </box>
+        </geometry>
+        <material>            
+            <ambient>0.46274509803921568627 0.6980392156862745098 1 1.0</ambient>
+          </material>
+      </visual>
+      <collision name="floorcollision">
+        <geometry>
+          <box>
+            <size>10 10 0.005</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+  
+  <model name="base">
+      <pose frame=''>0 0 -0.425 0 0 0</pose>
+      <static>1</static>
+      <link name="baselink">
+      <visual name="basevisual">
+        <geometry>
+          <box>
+            <size>0.15 0.15 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0.2 0.2 0.2 1.0</ambient>
+        </material>
+      </visual>
+    </link>
+  </model>
+    
+  <model name="box1">
+      <pose frame=''>-1.0 1.6 0.0 0 0 0</pose>
+      <static>1</static>
+      <link name="box1link">
+      <visual name="box1visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>          
+          <ambient>0.7 0.7 0.7 1.0</ambient>
+        </material>
+      </visual>
+      <collision name="box1collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</world>
+</sdf>

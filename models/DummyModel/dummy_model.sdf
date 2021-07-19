@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+<world name='dummy_world'>
+  <physics type="bullet">
+      <max_step_size>0.001</max_step_size>  
+      <bullet>
+        <solver>
+          <iters>20</iters>
+          <!--sor>0.5</sor-->          
+        </solver>
+      </bullet>  
+    </physics>
+  <model name="dummy_model">
+    <pose frame=''>0 0 0 0 0 0</pose>
+    <link name="dummy_link1"></link>    
+    <static>1</static>
+  </model>
+</world>
+</sdf>
+

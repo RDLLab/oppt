@@ -1,0 +1,5 @@
+t=2 add SimpleBox.sdf
+
+t=5 changePose SimpleBox 0 0 4 0 0 0
+
+t=7 remove SimpleBox

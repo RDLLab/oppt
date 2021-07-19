@@ -1,0 +1,1 @@
+ADD_REWARD_PLUGIN(rocksampleRewardPlugin ${CMAKE_CURRENT_LIST_DIR}/RocksampleRewardPlugin.cpp)
