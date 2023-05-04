@@ -57,6 +57,14 @@ If you fail to do this, you won't be able to use the viewer.
 
 OPPT supports three build types: Debug, RelWithDebInfo and Release. The default build type is RelWithDebInfo
 
+## Docker Image
+Alternatively, you can use the Dockerfile to build a compatible docker image. This will be for ROS Noetic
+
+```bash
+cd docker
+docker build -t <image-name> .
+```
+
 ## Configuring the OPPT runtime environment
 
 In order to obtain resources such as SDF models, plugins, etc., OPPT uses a filesystem API
